@@ -70,6 +70,12 @@ RelativeTime.From(timestamp, relativeTo: someFixedTime);
 
 Future phrases follow the same thresholds with "in …" and "tomorrow" in place of "yesterday".
 
+## Development
+
+```bash
+dotnet build src/Philiprehberger.TimeAgo.csproj --configuration Release
+```
+
 ## License
 
 MIT

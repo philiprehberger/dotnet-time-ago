@@ -1,5 +1,9 @@
 # Philiprehberger.TimeAgo
 
+[![CI](https://github.com/philiprehberger/dotnet-time-ago/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-time-ago/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/v/Philiprehberger.TimeAgo.svg)](https://www.nuget.org/packages/Philiprehberger.TimeAgo)
+[![License](https://img.shields.io/github/license/philiprehberger/dotnet-time-ago)](LICENSE)
+
 Convert timestamps into human-readable relative phrases like "3 hours ago" or "in 2 days".
 
 ## Install

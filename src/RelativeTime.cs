@@ -1,7 +1,12 @@
 namespace Philiprehberger.TimeAgo;
 
+/// <summary>Converts timestamps into human-readable relative time strings (e.g. "3 minutes ago").</summary>
 public static class RelativeTime
 {
+    /// <summary>Returns a human-readable relative time string for <paramref name="timestamp"/>.</summary>
+    /// <param name="timestamp">The point in time to describe.</param>
+    /// <param name="relativeTo">Optional reference time; defaults to <see cref="DateTimeOffset.UtcNow"/>.</param>
+    /// <returns>A relative time string such as "just now", "5 minutes ago", or "in 2 hours".</returns>
     public static string From(DateTimeOffset timestamp, DateTimeOffset? relativeTo = null)
     {
         var now = relativeTo ?? DateTimeOffset.UtcNow;

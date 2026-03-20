@@ -42,6 +42,31 @@ RelativeTime.From(now.AddMonths(2));             // "in 2 months"
 RelativeTime.From(timestamp, relativeTo: someFixedTime);
 ```
 
+### Different Time Ranges
+
+```csharp
+using Philiprehberger.TimeAgo;
+
+var now = DateTimeOffset.UtcNow;
+RelativeTime.From(now.AddSeconds(-30));  // "just now"
+RelativeTime.From(now.AddMinutes(-5));   // "5 minutes ago"
+RelativeTime.From(now.AddHours(-3));     // "3 hours ago"
+RelativeTime.From(now.AddDays(-1));      // "yesterday"
+RelativeTime.From(now.AddDays(-14));     // "2 weeks ago"
+RelativeTime.From(now.AddMonths(-6));    // "6 months ago"
+RelativeTime.From(now.AddYears(-2));     // "2 years ago"
+```
+
+### Custom Reference Time
+
+```csharp
+using Philiprehberger.TimeAgo;
+
+var reference = new DateTimeOffset(2026, 1, 1, 0, 0, 0, TimeSpan.Zero);
+var timestamp = new DateTimeOffset(2025, 12, 25, 0, 0, 0, TimeSpan.Zero);
+RelativeTime.From(timestamp, reference); // "last week"
+```
+
 ## API
 
 ### `RelativeTime`

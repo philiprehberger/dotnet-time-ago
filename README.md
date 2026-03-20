@@ -6,7 +6,7 @@
 
 Convert timestamps into human-readable relative phrases like "3 hours ago" or "in 2 days".
 
-## Install
+## Installation
 
 ```bash
 dotnet add package Philiprehberger.TimeAgo

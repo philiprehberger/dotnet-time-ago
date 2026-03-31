@@ -2,8 +2,7 @@
 
 [![CI](https://github.com/philiprehberger/dotnet-time-ago/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/dotnet-time-ago/actions/workflows/ci.yml)
 [![NuGet](https://img.shields.io/nuget/v/Philiprehberger.TimeAgo.svg)](https://www.nuget.org/packages/Philiprehberger.TimeAgo)
-[![License](https://img.shields.io/github/license/philiprehberger/dotnet-time-ago)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/dotnet-time-ago)](https://github.com/philiprehberger/dotnet-time-ago/commits/main)
 
 Convert timestamps into human-readable relative phrases like "3 hours ago" or "in 2 days".
 
@@ -102,6 +101,24 @@ Future phrases follow the same thresholds with "in …" and "tomorrow" in place 
 dotnet build src/Philiprehberger.TimeAgo.csproj --configuration Release
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/dotnet-time-ago)
+
+🐛 [Report issues](https://github.com/philiprehberger/dotnet-time-ago/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/dotnet-time-ago/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
